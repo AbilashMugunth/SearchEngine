@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+}
+.searchEngine{
+    margin: auto;
+}
+.resultTable{
+    display: inline-block;
+    margin: auto;
+}
+input[type=text] {
+  border: 2px solid black;
+  border-radius: 4px;
+  width: 30%;
+  padding: 8px 16px;
+
+}
+input[type=text]:focus{
+  border: 2px solid red;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.historyButton{
+    float: right;
+}
+.homeButton{
+    float:right;
+}
